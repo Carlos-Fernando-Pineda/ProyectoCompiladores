@@ -1,0 +1,11 @@
+color $azul --> #FFA0A0;
+repetir(4){
+	atrás();
+	izquierda();
+	repetirMientras(lanzarMoneda()){
+		derecha();
+	}
+	izquierda();
+}
+número &pasos --> 5;
+adelante();
